@@ -7,7 +7,7 @@ A tutorial for the postdocs:
   * Praachi
   * Matt
   * Seungwon
-  * ...
-  * ...
+  * Abby
+  * Claire
 
 Done by Emily 
