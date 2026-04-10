@@ -10,4 +10,4 @@ A tutorial for the postdocs:
   * Abby
   * Claire
 
-Done by Emily 
+Done by Emily Przykucki
