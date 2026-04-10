@@ -32,7 +32,7 @@ def main():
         df.append(row)
     
     df = pd.DataFrame(df)
-    print(df)
+    df.to_csv('postdocs.csv', index=False)
 
 
 if __name__ == '__main__':
