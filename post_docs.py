@@ -22,7 +22,17 @@ FOOD = [
 
 def main():
     """Main execution function"""
-    pass
+    df = []
+    # cols: name, age, favorite_food
+    for post_doc in POST_DOCS:
+        row = {}
+        row['name'] = post_doc
+        row['age'] = random.randrange(5, 40)
+        row['favorite_food'] = random.choice(FOOD)
+        df.append(row)
+    
+    df = pd.DataFrame(df)
+    print(df)
 
 
 if __name__ == '__main__':
